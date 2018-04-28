@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id          = "myfirstapp"
+        version     = "1.0.0" >
+
+    <name>First app</name>
+    <description>My first mobile app</description>
+    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
+		John Brown
+	</author>
+	<platform name="android" />
+	
+	<plugin name="cordova-plugin-device" spec="2.0.1" />
+	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
+	<plugin name="cordova-plugin-youtube-video-player
+" spec="1.0.6" />
+	<plugin name="cordova-plugin-vibration" spec="3.1.0" />
+
+<access origin="*"/>
+<plugin name="cordova-plugin-whitelist" version="1"/>
+
+</widget>
