@@ -1,38 +1,19 @@
-class Pytanie{
-    
-    var text;
-    var odpA;
-    var odpB;
-    var odpC;
-    var odpD;
-    
-    this.textPytanie = " pytanie ";
-    this.textA = "text odpowiedzi";
-    this.textB = "text odpowiedzi";
-    this.textC = "text odpowiedzi";
-    this.textD = "text odpowiedzi";
-    this.poprawna = "a";
-    
-   
-    drukuj(){
-        this.text = document.getElementById("Text");
-        this.odpA = document.getElementById("odpA");
-        this.odpB = document.getElementById("odpB");
-        this.odpC = document.getElementById("odpC");
-        this.odpD = document.getElementById("odpD");
-        
-        
-        this.text.innerHTML = textPytanie;
-        this.textA.innerHTML = textA;
-        this.textB.innerHTML = textB;
-        this.textC.innerHTML = textC;
-        this.textD.innerHTML = textD;
-        
+var Pytanie= class Pytanie{
+    var A;
+    var B;
+    construct(z , y){
+        A = z;
+        B = y;
     }
     
     
-};
+    
+    drukuj() {
+        document.getElementById("odpA").innerHTML = A;
+        document.getElementById("odpB").innerHTML = B;
+    }
+    
+}
 
-
-p = new Pytanie();
+var p = new Pytanie("dwadwad" , "fefesf");
 p.drukuj();
