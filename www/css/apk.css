@@ -103,7 +103,9 @@ li{
   margin:2% auto;
   }
 
- 
+  .btn:first-child{
+      margin-top: 40%;
+  }
   
 
 #mainBox .page{
@@ -133,12 +135,12 @@ li{
     
 }
 #loginBtn{
-    //position: absolute;
+    position: absolute;
     top: 60%;
     left: 15%;
 }
 #registerBtn{
-    //position: absolute;
+    position: absolute;
     top: 67%;
     left: 15%;
 }
