@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+}
+
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1000px;
+    height: 738px;
+    display: none;
+}
+.topBar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1000px;
+	height: 70px;
+	background-color: #369;
+	color: #fff;
+}
+.content{
+	position: absolute;
+	left: 0;
+	top: 70px;
+	width: 1000px;
+	height: 620px;
+	background-color: #fff;
+	clip: auto;
+	overflow: hidden
+}
+
+.footerBar{
+	position: absolute;
+	left: 0;
+	top: 690px;
+	width: 1000px;
+	height: 48px;
+	background-color: #369;
+}
+
+.activePage{
+	display: block;
+};
