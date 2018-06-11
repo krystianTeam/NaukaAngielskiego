@@ -9,13 +9,13 @@
     
    
    
-  <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="jquery.mobile.icons.min.css" />
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
     
-  <link rel="stylesheet" href="css/wsei.min.css" />
-    <link rel="stylesheet" href="css/new.css">
+  <link rel="stylesheet" href="wsei.min.css" />
+    <link rel="stylesheet" href="new.css">
   
     
     
@@ -36,13 +36,12 @@
 			firebase.initializeApp(config);
     </script>
     
-    
 </head> 
 
 
 <body> 
 
-<!-- Strona Główna *************************************************************************************** -->
+        <!-- Start of first page -->
         <div data-role="page" id="foo" data-theme="a">
         
             <div data-role="header">
@@ -50,8 +49,8 @@
                         <h3>MENU</h3>
                     
                             <ul>
-                                <li><a href="#foo" data-icon="info">Informacje o aplikacji</a></li>
-                                <li><a href="#bar" data-icon="user">Nowy Uzytkownik</a></li>
+                                <li><a href="#foo" data-icon="home">Informacje o aplikacji</a></li>
+                                <li><a href="#bar" data-icon="home">Nowy Uzytkownik</a></li>
                             </ul>
                         </div><!-- /navbar -->
             </div><!-- /header -->
@@ -71,13 +70,10 @@
             <div data-role="footer">
                 <h4>Page Footer</h4>
             </div><!-- /footer -->
-
-        </div><!-- /page -->
-<!--Koniec Strony Głównej *****************************************************************************************-->
+            </div><!-- /page -->
         
         
-        
-<!-- Strona Rejstracji urzytkownika **************************************************************************-->
+        <!-- Start of second page -->
         <div data-role="page" id="bar">
         
             <div data-role="header">
@@ -96,33 +92,23 @@
                    
                 <span>Podaj swój Pseudonim</span><input type="text" id="nick">
                 <span>Podaj swój adres email, to bedzie Twój Login</span><input type="email" id="emailNew">
-                
+                <span>Jak dobrze znasz angielski: 1 - słabo, 5 - bardzo dobrze </span><input type="range" name="slider-1" id="slider-1" value="3" min="1" max="5">
                 
                     <label for="passwordNew">Podaj hasło</label>
-                    <input type="password" name="password" id="passwordNew" value=""  />
+                    <input type="text" name="password" id="passwordNew" value=""  />
 
-                    <label for="confirmPasswordNew">Powtórz hasło</label>
-                    <input type="password" name="confirmPasswordNew" id="confirmPasswordNew" value=""  />
-                    <br>
-
-
-                    <a href="" id="rejsetrujNowy" data-role="button" >Zarejestruj</a>
+                    <a href="" id="rejestrujNowy" data-role="button" >Zarejestruj</a>
                     
-                    <p id="firebaseErrorRegister"></p>
+                    <p id="firebaseError"></p>
 
                 
             </div><!-- /content -->
         
             <div data-role="footer">
-                <h4>WSEI</h4>
+                <h4>Page Footer</h4>
             </div><!-- /footer -->
         </div><!-- /page -->
-<!-- Koniec Strony Rejstracji Urzytkownika !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->    
 
-        
-        <!--*******************************************************************>
-
-<!-- Strona po zalogowniu**************************************************************************************** -->
         <div data-role="page" id="dupa">
         
                 <div data-role="header">
@@ -134,15 +120,12 @@
                     <br>
                     
                     <ul data-role="listview">
-                        <li><a href="#slowka" data-role="button">Zgadnij Słówka</a></li>
+                        <li><a href="" data-role="button">Acura</a></li>
                         <li><a href="" data-role="button">Audi</a></li>
                         <li><a href="" data-role="button">BMW</a></li>
-                        
+                        <li><a href="" id="wyloguj" data-role="button" >Wyloguj</a></li>
+
                     </ul>
-                    <br>
-
-                    <a href="" id="wyloguj" data-role="button" >Wyloguj</a>
-
                     
                     
                 </div><!-- /content -->
@@ -150,51 +133,8 @@
                 <div data-role="footer">
                     <h4>Page Footer</h4>
                 </div><!-- /footer -->
-        </div>
-<!-- Koniec Strony Głownej !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->    
-           
-<!--Strona Zgadnij Słówka ***********************************************************-->
-    <div data-role="page" id="slowka">
-        
-        <div data-role="header">
-            <h3>Zgadnij Słówka</h3>
-           
-          
-        </div>
+            </div><!-- /page -->
 
-        <div data-role="content" id="slowkaContent">
-
-                <h3 id="kategoriaSlowa">wczytuje dane ... </h3>
-                <div id="literki">
-                
-                </div>
-                <h3 id="wynik"></h3>
-                
-                <p id="szukaneSlowoError"></p>
-                <button id="dalej">Dalej</button>
-
-            
-        </div>
-
-        <div data-role="footer">
-            <h3>WSEI</h3>
-        </div>
-
-    
-    </div>
-
-
-
-<!--Koniec Strony Zgadnij Słówka*********************************************************-->
-        
-
-
-
-
-        <script src="js/mainApk.js"></script>
-        <script src="cordova.js"></script>
-        <script>
-               
-        </script>
+        <script src="mainApk.js"></script>
 </body>
 </html>
