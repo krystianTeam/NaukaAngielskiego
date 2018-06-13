@@ -3,6 +3,7 @@ Jeżeli pragniesz nauczyć się podstaw języka angielskiego lub przypomnieć je
 
 
 ## Opis projektu
+Projekt aplikacji powstał na potrzeby przedmiotu:  **Architektura środowisk mobilnych**
 
 Program **Nauka angielskiego** pozwala na:
 - Założenie własnego profilu użytkownika
@@ -26,7 +27,7 @@ Członkowie:
 ## Prototyp projektu
 *uzupełnic!*
 
-Projekt aplikacji powstał na potrzeby przedmiotu:  **Architektura środowisk mobilnych**
+
 
 ## Raport prac zespołu
 *uzupełnić!*
