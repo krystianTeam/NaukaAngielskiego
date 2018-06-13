@@ -10,6 +10,13 @@
 	text-align: center;
 	color: steelblue;
 }
+
+#autor{
+	font: Helvetica, serif;
+	text-align: center;
+	color: steelblue;
+}
+
 #czasownikNieregularny{
 	text-align: center; 
 }
