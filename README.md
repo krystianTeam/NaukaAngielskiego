@@ -13,4 +13,4 @@ Program **Nauka angielskiego** pozwala na:
 
 ## O twórcach
 Jesteśmy grupą studentów, pasjonatów IT w Wyższej Szkole Ekonomii i Informatyki w Krakowie. 
-Projekt aplikacji powstał na przedmiotu:  **Architektura środowisk mobilnych**
+Projekt aplikacji powstał na potrzeby przedmiotu:  **Architektura środowisk mobilnych**
