@@ -4,7 +4,7 @@ Jeżeli pragniesz nauczyć się podstaw języka angielskiego lub przypomnieć je
 
 ## Opis aplikacji
 
-Program NaukaJęzykaAngielskiego pozwala na:
+Program **Nauka angielskiego** pozwala na:
 - Założenie własnego profilu użytkownika
 - Naukę słówek w formie przyjemnego QUIZU
 - Czynne powiększanie bazy ze słówkami
