@@ -12,6 +12,8 @@ Program **Nauka angielskiego** pozwala na:
 - Naukę czasowników nieregularnych
 - Komunikację z Google Translatorem wprost z poziomu aplikacji
 
+[----> LINK DO POBRANIA APLIKACJI <----](https://build.phonegap.com/apps/3202916/share)
+
 *Aplikacja przeznaczona jest do nauki, bądź odświeżenia sobie języka angielskiego – ma formę zadań utrwalających słownictwo. Przejrzysty i czytelny interfejs pozwala na intuicyjną obsługę oraz na szybkie przejście do korzystania z aplikacji i nauki. 
 Program pozwala na naukę w przyjemny sposób, w formie 2 dostępnych gier - quizów. 
 **Pierwszym quizem** jest ułożenie hasła, ze słowa rozbitego na literki w losowej kolejności, jednego z trzech dostępnych standardowo kategorii: roślina, przedmiot, zwierze. Użytkownik może też rozszerzyć bazę słów o własne, aby przyswoić większy zasób słów i wpłynąć tym samym na rozwój aplikacji. 
