@@ -12,7 +12,7 @@
 	<content src="index.html" />
 	<access origin="*" />
 	<platform name="android" />
-	
+	<icon src="www/img/jezyk.jpg"/>
 	
 	
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
