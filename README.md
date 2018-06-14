@@ -29,11 +29,14 @@ Członkowie:
 - Krzysztof Lewiński
 - Krystian Karendał
 
+## Repozytrium projektu
+[----> GITHUB <----](https://github.com/krystianTeam/NaukaAngielskiego)
+
 ## System zarządzania projektem
-[TRELLO](https://trello.com/b/guimBnZG/projekt-na-wsei) 
+[----> TRELLO <----](https://trello.com/b/guimBnZG/projekt-na-wsei) 
 
 ## Prototyp projektu
-[PROTOTYP PROJEKTU](http://run.mockplus.com/AgUpItaYnpUohOed/index.html)
+[----> PROTOTYP PROJEKTU <----](http://run.mockplus.com/AgUpItaYnpUohOed/index.html)
 
 
 ## Raport prac zespołu
