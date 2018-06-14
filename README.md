@@ -36,7 +36,7 @@ Członkowie:
 [----> TRELLO <----](https://trello.com/b/guimBnZG/projekt-na-wsei) 
 
 ## Prototyp projektu
-[----> PROTOTYP PROJEKTU <----](http://run.mockplus.com/AgUpItaYnpUohOed/index.html)
+[----> MOCKPLUS <----](http://run.mockplus.com/AgUpItaYnpUohOed/index.html)
 
 
 ## Raport prac zespołu
