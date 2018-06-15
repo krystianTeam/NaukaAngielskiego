@@ -40,4 +40,4 @@ Członkowie:
 
 
 ## Raport prac zespołu
-*uzupełnić!*
+[----> EXCEL ONLINE <----](https://docs.google.com/spreadsheets/d/1GyhWm8gZX61eztweAUTQriXQFiqFv10UHatVBOZWF6g/edit#gid=0)
